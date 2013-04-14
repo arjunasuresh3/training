@@ -21,7 +21,7 @@ def ajaxxml():
 @app.route('/ajaxjson')
 def ajaxjson():
     resp = jsonify({'Resultset' :{'Result':{ "Name" : "Arjun",
-                                             "Country" : "India", 
+                                             "Country" : "Indian", 
                                              "favlanguages" : ["javascript", "python", "php"]}}})
     return resp
     
