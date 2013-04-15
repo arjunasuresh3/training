@@ -22,7 +22,7 @@ def ajaxxml():
 def ajaxjson():
     resp = jsonify({'Resultset' :{'Result':{ "Name" : "Arjun",
                                              "Country" : "Indian", 
-                                             "favlanguages" : ["javascript", "python", "php"]}}})
+                                             "favlanguages" : ["javascript", "python", "php", "C", "perl"]}}})
     return resp
     
 if __name__ == '__main__':
